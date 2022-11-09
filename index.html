@@ -7,6 +7,7 @@
       body{
         background-color: #aaccff;
       }
+
 /*   Kadens Style   */
 p#visible {
    display:none;
@@ -42,6 +43,7 @@ p#visible {
   }
 /*   End of Kadens style   */
 
+
 /*   Cain's Style   */
     button.cain{
   visibility: hidden;
@@ -56,6 +58,18 @@ div{
 }
 /*    End of Cain's Style    */
 
+/* Uziel's style */
+    button.cain{
+  visibility: hidden;
+}
+
+    #button1{
+  visibility: visible;
+}
+  /* end of Uziel's Style */
+    
+    
+    
     #hidden {
       display: none;
     }
@@ -168,6 +182,15 @@ div{
       border-radius:30px;
     }
 /*  End of Conlans Stylings  */
+      
+/*  Musabs style  */
+       p#Hidden{
+      display: none;
+    }
+    p#Bradley{
+      display: block;
+    }
+ /* end of musabs style */
     </style>
   </head>
   <body id="back">
@@ -186,7 +209,28 @@ div{
       <button id='china' onclick="document.getElementById('china').innerHTML= '肚明'">my name</button>
       <button onclick="document.getElementById('HIDE').innerHTML= 'Give Up'">now</button>
 
+/* Uziel's buttons */
     
+<h1 id="dissapear"> Pick a color!</h1>
+<button onclick="document.body.style.background=
+('#0000FF');document.getElementById('dissapear').style.display='none';">Blue</button>
+ 
+
+<button onclick="document.body.style.background=('#00FF00');">Light Green</button>
+<button onclick="document.body.style.background=('#FF0000');">Red</button>
+<button onclick="document.body.style.background=('#000000');">Black</button>
+<button onclick="document.body.style.background=('#33ccff');">Light Blue</button>
+<button onclick="document.body.style.background=('#983d76');">Magenta</button> 
+<button onclick="document.body.style.background=('#009933');">Yellow</button> 
+<button onclick="document.body.style.background=('#ffff00');">Orange</button> 
+<button onclick="document.body.style.background=('#ff9900');">Mint</button> 
+<button onclick="document.body.style.background=('#99ff99');">Brick</button> 
+<button onclick="document.body.style.background=('#ff99cc');">Pink</button>
+<p id="normal">Back to normal</p>
+  
+  <button onclick="document.body.style.background=('#ffffff'); document.getElementById('normal').style.display='block';">White</button>
+/* end of Uziel's buttons */
+
 <!--   Cain's Code   -->
       <h1 id="title">Find The Button</h1>
   <audio id="myAudio">
@@ -379,6 +423,50 @@ div{
   <p id = "nB6">Green apple</p>
     
     // End of Kevin Chen's code //
+    
+    // musabs code //
+    
+      <h1 id="Color">Find the button that makes the background red</h1>
+  <button onclick="document.getElementById('Color').style.background='red'">Click here to change color</button>
+  
+  <p id="Hidden">Hello world</p>
+  <button onclick="document.getElementById('Hidden').style.display='block'">Click Here</button>
+  
+
+  <p id="Bradley">Bradley high</p>
+  <button onclick="document.getElementById('Bradley').style.color='red'">Click Here</button>
+
+  <h1 id="Yellow">Find the button that makes it yellow</h1>
+  <button onclick="document.getElementById('Yellow').style.background='yellow'">Click here to change the color</button>
+
+  <p id="queue">Bradley High</p>
+  <button onclick="document.getElementById('queue').style.color='yellow'">Click Here</button>
+  
+
+  <p id="opacity">This sentence will be harder to see</p>
+  <button onclick="document.getElementById('opacity').style.opacity='0.1'">click this button</button>
+
+  <p id="space">Click here to make the sentence dissapear</p>
+  <button onclick="document.getElementById('space').style.opacity='0.0'">click this button</button>
+
+  <h1 id="Blue">Find the button that makes it blue</h1>
+  <button onclick="document.getElementById('Blue').style.background='blue'">Click here to change the color</button>
+
+  <p id="Planet">Bradley High</p>
+  <button onclick="document.getElementById('Planet').style.color='blue'">Click Here</button>
+
+  <p id="See">Visibility is gonna be off</p>
+  <button onclick="document.getElementById('See').style.visibility='hidden'">click here to hide</button>
+  <button onclick="document.getElementById('See').style.visibility='visible'">click here to make it visible</button>
+
+  <h1 id="Green">Find the button that makes it green</h1>
+  <button onclick="document.getElementById('Green').style.background='green'">Click here to change the color</button>
+  
+
+  <p id="Ripe">Bradley High</p>
+  <button onclick="document.getElementById('Ripe').style.color='green'">Click here</button>
+    
+    // end of musabs code //
 
       
       
