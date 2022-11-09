@@ -7,7 +7,42 @@
       body{
         background-color: #aaccff;
       }
-      
+
+/*   Kadens Style   */
+p#visible {
+   display:none;
+
+  }
+  h1#head{
+          visibility: hidden;
+   }
+   #buton{
+          
+           background-color:#FF0000;           
+    }
+   #buuttoon{
+               background-color:#0000FF;
+   } 
+   #coolcolor{
+                 background-color:#00FF00;
+   }
+   #pinky{
+                    background-color:#FFC0CB;
+   }
+   #blak{
+               background-color:#000000;
+   }
+   #wit{
+                    background-color:#FFFFFF;
+  }
+  #purp {
+                background-color:#A020F0;
+  }
+  #orng {
+                 background-color:#FFA500;
+  }
+/*   End of Kadens style   */
+
 
 /*   Cain's Style   */
     button.cain{
@@ -546,7 +581,39 @@ div{
   <button class="randColor" id="b10"></button>
   <button class="randColor" id="b11"></button>
   <!--End of Conlan's html-->
-      
+  
+  
+  <!--Kadens HTML-->
+   <p id="visible">Visible words</p>
+  <h1 id="head"> Heding </h1>
+  <p id="dat"> </p>
+  <p id="pra"> </p>
+<button onclick="document.getElementById('visible').style.display='block';">Invisible words </button> 
+  <br>
+<button onclick="document.getElementById('head').style.visibility='visible';">big word</button>
+<br>
+  <button onclick="getElementById('dat').innerHTML=Date()"> The Time </button>
+<br>
+  <button onclick="alert('abcdefghijklmnopqrstuvwxyandz')">alphabat</button>
+<br>
+<button id="buton" onclick="document.body.style.background='red';"> Red </button>
+  <br>
+  <button id="buuttoon" onclick="document.body.style.background='blue';">   Blue  </button>
+  <br>
+  <button id="coolcolor" onclick="document.body.style.background='green';"> Green </button>
+  <br>
+  <button id="pinky" onclick="document.body.style.background='pink';"> Pink </button>
+  <br>
+  <button id="blak" onclick="document.body.style.background='black';"> Black </button>
+  <br>
+  <button id="wit" onclick="document.body.style.background='white';"> White </button>
+  <br>
+  <button id="purp" onclick="document.body.style.background='purple';"> Purple </button>
+  <br>
+  <button id="orng" onclick="document.body.style.background='orange';"> Orange </button>
+  <!--End of Kadens HTML-->
+ 
+ 
   <!--   Jackson's HTML   -->
       
   <h1 id="findHeading">Find the button that makes this text green...</h1>
@@ -764,9 +831,6 @@ alert("horse noises")
         alert('WAKE UP')
       }
     }
-  
-  
-  
 </script>
  
  
